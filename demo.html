@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RTL TimePicker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="mdtimepicker.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="mdtimepicker.js"></script>
+
+</head>
+
+<body>
+
+    <h1>hi</h1>
+
+    <input type="text" id="timepicker" />
+
+    <script>
+        $(document).ready(function () {
+            $('#timepicker').mdtimepicker({
+                timeFormat: 'hh:mm:ss.000', // format of the time value (data-time attribute)
+                format: 'h:mm tt',    // format of the input value
+                theme: 'blue',        // theme of the timepicker
+                readOnly: false,       // determines if input is readonly
+                hourPadding: false,
+                theme: 'green'
+            });
+        });
+    </script>
+
+</body>
+
+</html>
