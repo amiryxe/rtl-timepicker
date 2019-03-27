@@ -1,2 +1,4 @@
 # RTL Time Picker
-RTL Material TimePicker based on MDTimePicker
+Material TimePicker based on MDTimePicker
+
+RTL Support and Persian
