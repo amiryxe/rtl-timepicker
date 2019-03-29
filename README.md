@@ -14,7 +14,7 @@ RTL Support and <b>Persian</b>
 <script type="text/javascript" src="mdtimepicker.js"></script>
 ```
 
-3. Create a input form Time Picker
+3. Create a input for Time Picker
 
 ```html
 <input type="text" id="timepicker"/>
