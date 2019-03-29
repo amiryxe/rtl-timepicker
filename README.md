@@ -19,7 +19,7 @@ RTL Support and <b>Persian</b>
 ```html
 <input type="text" id="timepicker"/>
 ```
-4. Add this code to Script tag
+4. Add this code to ```Script``` tag
 
 ```Javascript
 $(document).ready(function(){
