@@ -1,7 +1,7 @@
 # RTL Time Picker
 Material TimePicker based on <a href="https://github.com/dmuy/MDTimePicker">MDTimePicker</a>
 
-RTL Support and Persian
+RTL Support and <b>Persian</b>
 
 <a href="https://amirsaa.github.io/RTL-TimePicker/"><h2>View Demo</h2></a>
 
