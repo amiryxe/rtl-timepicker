@@ -3,7 +3,7 @@ Material TimePicker based on <a href="https://github.com/dmuy/MDTimePicker">MDTi
 
 RTL Support and Persian
 
-<a href="https://amirsaa.github.io/RTL-TimePicker/" target="_blank"><h2>View Demo</h2></a>
+<a href="https://amirsaa.github.io/RTL-TimePicker/"><h2>View Demo</h2></a>
 
 # How to use
 1. Make sure your Project included jQuery library
