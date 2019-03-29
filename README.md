@@ -4,7 +4,7 @@ Material TimePicker based on <a href="https://github.com/dmuy/MDTimePicker">MDTi
 RTL Support and Persian
 
 # How to use
-1. Add jQuery to your Project
+1. Make sure your Project included jQuery library
 2. Include ```mdtimepicker.css``` and ```mdtimepicker.js``` like this:
 
 ```html
