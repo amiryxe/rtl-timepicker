@@ -7,15 +7,47 @@
     <title>RTL TimePicker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="mdtimepicker.css">
-    <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="mdtimepicker.css">
+
+    <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet"
+        type="text/css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="mdtimepicker.js"></script>
+
 
     <style>
-        body{
+        /* Demo Styles */
+        body {
             font-family: Vazir;
+            background: #eee;
+        }
+
+        input {
+            font-size: 1.5rem;
+            padding: .5rem;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin: 2rem 0;
+            direction: ltr;
+            text-align: center;
+        }
+
+        .use {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        pre {
+            background: #333;
+            color: #eee;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        a {
+            color: darkslateblue;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -24,15 +56,38 @@
 
     <div style="text-align: center">
         <h1>RTL Time Picker</h1>
-        <a href="https://github.com/amirsaa/RTL-TimePicker" target="_blank">
-            <h4>View on Github</h4>
+        <p>Time Picker rtl support</p>
+        <a href="https://github.com/amiryxe/rtl-timepicker" target="_blank">
+            <h4>View and download on Github</h4>
         </a>
 
-        <p>Demo Page in under construction</p>
-
-        <input type="text" id="timepicker" />
+        <input type="text" id="timepicker" placeholder="Pick a time..." />
     </div>
 
+    <div class="use" dir="ltr">
+        <h3>How to use:</h3>
+        <code>
+    <pre>
+&lt;link rel="stylesheet" href="mdtimepicker.css"&gt;<br />&lt;script src="mdtimepicker.js"&gt;&lt;/script&gt;
+    </pre>
+</code>
+
+        <code>
+            <pre>
+$('#timepicker').mdtimepicker({
+    timeFormat: 'hh:mm:ss.000', // format of the time value (data-time attribute)
+    format: 'hh:mm tt',    // format of the input value
+    readOnly: false,       // determines if input is readonly
+    hourPadding: false,
+    theme: 'green',
+    okLabel: 'تائید',
+    cancelLabel: 'انصراف',
+});
+            </pre>
+        </code>
+    </div>
+
+    <script src="mdtimepicker.js"></script>
     <script>
         $(document).ready(function () {
             $('#timepicker').mdtimepicker({
@@ -40,7 +95,9 @@
                 format: 'hh:mm tt',    // format of the input value
                 readOnly: false,       // determines if input is readonly
                 hourPadding: false,
-                theme: 'green'
+                theme: 'green',
+                okLabel: 'تائید',
+                cancelLabel: 'انصراف',
             });
         });
     </script>
