@@ -9,16 +9,10 @@
 
     <link rel="stylesheet" href="mdtimepicker.css">
 
-    <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v[X.Y.Z]/dist/font-face.css" rel="stylesheet"
-        type="text/css" />
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
     <style>
         /* Demo Styles */
         body {
-            font-family: Vazir;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: #eee;
         }
 
@@ -55,8 +49,8 @@
 <body>
 
     <div style="text-align: center">
-        <h1>RTL Time Picker</h1>
-        <p>Time Picker rtl support</p>
+        <h1>RTL TimePicker</h1>
+        <p>Material Design TimePicker</p>
         <a href="https://github.com/amiryxe/rtl-timepicker" target="_blank">
             <h4>View and download on Github</h4>
         </a>
@@ -87,6 +81,7 @@ $('#timepicker').mdtimepicker({
         </code>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="mdtimepicker.js"></script>
     <script>
         $(document).ready(function () {
@@ -94,7 +89,7 @@ $('#timepicker').mdtimepicker({
                 timeFormat: 'hh:mm:ss.000', // format of the time value (data-time attribute)
                 format: 'hh:mm tt',    // format of the input value
                 readOnly: false,       // determines if input is readonly
-                hourPadding: false,
+                hourPadding: true,
                 theme: 'green',
                 okLabel: 'تائید',
                 cancelLabel: 'انصراف',

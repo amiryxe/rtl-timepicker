@@ -1,7 +1,5 @@
 # RTL Time Picker
 
-Material TimePicker based on <a href="https://github.com/dmuy/MDTimePicker">MDTimePicker</a>
-
 RTL Support and flexible to change language.
 
 <a href="https://amiryxe.github.io/rtl-timepicker/"><h2>View Demo</h2></a>
@@ -44,4 +42,4 @@ $("#timepicker").mdtimepicker({
 });
 ```
 
-View more <b>Document</b> and <b>Options</b> in <a href="https://github.com/dmuy/MDTimePicker">MDTimePicker</a>
+Developed based on <a href="https://github.com/dmuy/MDTimePicker">MDTimePicker</a>
